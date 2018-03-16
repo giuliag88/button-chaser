@@ -1,0 +1,66 @@
+#header {
+  max-width: 80%;
+  margin: 0 10%;
+}
+
+#button {
+  position: relative;
+  top: 50px;
+  width: 45px;
+  height: 45px;
+  background-color: #B0171F;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#gameWrapper {
+  border: 2px solid #000000;
+  }
+
+
+/*//////////////////////////////*/
+			/* DESKTOP STYLES */
+/*//////////////////////////////*/
+@media only screen and (min-width: 1025px) {
+  #gameWrapper {
+    max-width: 80%;
+  	height: 400px;
+    margin: 0 10%;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+}
+
+
+/*//////////////////////////////*/
+			/* TABLET STYLES */
+/*//////////////////////////////*/
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  #gameWrapper {
+    max-width: 80%;
+  	height: 300px;
+    margin: 0 10%;
+  }
+
+  .container {
+    margin-top: 70px;
+  }
+}
+
+
+/*//////////////////////////////*/
+			/* MOBILE STYLES */
+/*//////////////////////////////*/
+@media only screen and (max-width: 767px) {
+  #gameWrapper {
+    max-width: 100%;
+  	height: 200px;
+    margin: 0 0 20px 0;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+}
